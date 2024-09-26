@@ -1,0 +1,141 @@
+@media(max-width: 414px){
+
+    html{
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .cabecalho{
+        padding: 10px 0 10px 0;
+    }
+    .cabecalho h1{
+        font-size: 25px;
+    }
+
+    .login{
+        margin: 0;
+        padding-bottom: 100%;
+        background: rgb(241, 240, 255, .5);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .login p {
+        position: absolute;
+        padding: 0%;
+        right: 21%;
+        margin-top: 20%;
+    }
+
+    .loginImagens{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .login img:hover{
+        transform: none;
+    }
+
+    .login img{
+        padding: 0;
+        margin: 10px 0 0 10px;
+        width: 50%;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(245, 245, 255) 35%, rgb(234, 250, 253) 100%);
+        padding-right: 100%;
+    }
+
+    .login img:hover{
+        background: linear-gradient(0deg, rgba(157,170,251,1) 0%, rgba(122,122,255,1) 35%, rgba(75,109,255,1) 100%);
+    }
+
+    .formulario form, .perfil form{
+        margin: 5%;
+        padding: 30px;
+    }
+
+    .perfil{
+        flex-direction: column;
+        margin: 5%;
+        padding: 10px 10px 100px 10px;
+        align-items: center;
+    }
+
+    .perfil img{
+        max-width: 130px;
+    }
+
+    .perfil p{
+        font-size: 15px;
+        margin: 10px 0;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .formulario input{
+        margin-bottom: 10px;
+    }
+
+    .usuario{
+        height: 100px;
+        left: 57%;
+        padding: 5% 1%;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .usuario a{
+        font-size: 20px;
+    }
+
+    .mensagem img{
+        display: block;
+        position: absolute;
+    }
+
+    .rodape{
+        margin-top: 0;
+    }
+}
+
+@media(max-height:350px) and (max-width:500px){
+    html{
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .cabecalho{
+        padding: 5px 0 5px 0;
+    }
+    .cabecalho h1{
+        font-size: 25px;
+    }
+
+    .tabela{
+        margin: 0px 10px;
+        width: 95%;
+    }
+
+    .tabela th, .tabela td{
+        font-size: 10px;
+    }
+
+    .tabela img{
+        max-width: 16px;
+    }
+
+    .usuario{
+        height: 100px;
+        left: 70%;
+        padding: 5% 1%;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .usuario a{
+        font-size: 20px;
+    }
+
+    .rodape{
+        margin-top: 0;
+    }
+}
