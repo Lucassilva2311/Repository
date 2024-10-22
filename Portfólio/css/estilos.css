@@ -11,10 +11,6 @@ body{
     background-image: url(../imagens/wallpaper.jpg);
 }
 
-.modoEscuro{
-
-}
-
 p, a, .menu li{
     font-size: 18px;
 }
@@ -64,32 +60,6 @@ h1, h2, h3, h4{
     padding: 5px 20px;
 }
 
-.claro, .escuro{
-    max-width: 20px;
-    padding: .2rem 1rem;
-    margin: 0 1rem;
-    border-radius: 10rem;
-}
-
-.claro{
-    background-color: #485aff;
-    display: none;
-}
-
-.claro:hover{
-    cursor: pointer;
-    background-color: #6272ff;
-}
-
-.escuro{
-    display: block;
-    background-color: #10102c;
-}
-
-.escuro:hover{
-    cursor: pointer;
-    background-color: #1a1a49;
-}
 
 .menu li:hover{
     cursor: pointer;
@@ -130,14 +100,14 @@ h1, h2, h3, h4{
     max-width: 200px;
 }
 
-.sobre, .contato, .portfolio{
+.sobre, .contato, .portfolio, .sobre-contatos{
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     background-color: #f3f3f3
 }
 
-.sobre{
+.sobre, .sobre-contatos{
     flex-direction: row;
     padding: 10%;
     margin: 5% 15%;
@@ -170,6 +140,11 @@ h1, h2, h3, h4{
 
 .contato img{
     max-width: 30px;
+}
+
+.contato-imagem{
+    min-height: 300px; 
+    min-width: 300px;
 }
 
 .portfolio{
